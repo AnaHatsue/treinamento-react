@@ -51,7 +51,7 @@ function BlogPost(props) {
             </div>
             {imgTag}
             <p>{post.texto}</p>
-            <button class="share" onClick={shareClickCallBack}>
+            <button className="share" onClick={shareClickCallBack}>
                 Compartilhar!
             </button>
             <div>{contador}</div>
